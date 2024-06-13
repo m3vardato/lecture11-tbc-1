@@ -149,6 +149,7 @@ p {
 }
 
 .idk8 {
+  max-width: 100%;
   margin-top: 39px;
   height: 372px;
   background: #000;
@@ -178,8 +179,6 @@ h3 {
 
 .idk9 {
   width: 295px;
-  margin-left: 143px;
-
   row-gap: 23px;
 }
 
@@ -226,6 +225,10 @@ h3 {
   margin-right: 30px;
 }
 
+.bolo {
+  height: 300px;
+}
+
 @media screen and (width:768px) {
   .box{
     display: flex;
@@ -256,3 +259,46 @@ h3 {
     margin-left: 72.5px;
   }
 }
+
+
+@media screen and (width<=1115px) {
+  .idk7{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .ww {
+    width: 373px;
+    height: 373px;
+  }
+
+}
+
+@media screen and (width<=700px) {
+  .logosbox{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logos{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (width<=590px) {
+  .idk8 {
+    height: 1000px;
+    flex-direction: column;
+  }
+  .idk9,.second,.third,.rimdim {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (width<=540px) {
+  .idk8 {
+    width: 1000px;
+  }
+}
+
