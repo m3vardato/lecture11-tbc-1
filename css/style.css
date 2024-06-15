@@ -149,7 +149,8 @@ p {
 }
 
 .idk8 {
-  max-width: 100%;
+  width: 100%;
+  max-width: 2000px;
   margin-top: 39px;
   height: 372px;
   background: #000;
@@ -298,7 +299,11 @@ h3 {
 
 @media screen and (width<=540px) {
   .idk8 {
-    width: 1000px;
+    width: 150%;
+  }
+
+  .idk7 {
+    margin-left: 120px;
   }
 }
 
